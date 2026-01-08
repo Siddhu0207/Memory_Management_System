@@ -1,0 +1,16 @@
+Enter Init Memory Size: Commands: malloc <size>, free <id>, access <addr>, stats, set allocator <mode>, exit
+Allocated Block ID 1 at 0x0
+> Allocated Block ID 2 at 0x64
+> Allocated Block ID 3 at 0x12c
+> Freed Block ID 2.
+> Freed Block ID 1.
+> Allocator strategy updated.
+> Allocated Block ID 4 at 0x0
+> --- Allocator Stats (Total: 1024) ---
+Used: 172 | Free: 852
+Internal Frag: 2B | External Frag: 21.13%
+--- VM Stats ---
+Page Faults: 0 | Page Hits: 0
+L1 Hits: 0 Misses: 0
+L2 Hits: 0 Misses: 0
+> 

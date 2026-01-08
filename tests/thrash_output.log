@@ -1,0 +1,14 @@
+Enter Init Memory Size: Commands: malloc <size>, free <id>, access <addr>, stats, set allocator <mode>, exit
+Allocation Failed: Not enough memory.
+> [CPU] SegFault: Invalid Access at 0x0
+> [CPU] SegFault: Invalid Access at 0x40
+> [CPU] SegFault: Invalid Access at 0x80
+> [CPU] SegFault: Invalid Access at 0x0
+> --- Allocator Stats (Total: 128) ---
+Used: 0 | Free: 128
+Internal Frag: 0B | External Frag: 0.00%
+--- VM Stats ---
+Page Faults: 0 | Page Hits: 0
+L1 Hits: 0 Misses: 0
+L2 Hits: 0 Misses: 0
+> 

@@ -1,0 +1,9 @@
+1024
+malloc 512
+access 0
+access 64
+access 128
+access 0
+access 16
+stats
+exit

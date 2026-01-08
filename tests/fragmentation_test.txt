@@ -1,0 +1,10 @@
+1024
+malloc 100
+malloc 200
+malloc 50
+free 2
+free 1
+set allocator best
+malloc 120
+stats
+exit

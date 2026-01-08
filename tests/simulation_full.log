@@ -1,0 +1,39 @@
+Enter Init Memory Size: Commands: malloc <size>, free <id>, access <addr>, stats, set allocator <mode>, exit
+Allocated Block ID 1 at 0x0
+> [CPU] Access VA: 0
+  [MMU] Page Fault!
+[TRACER] VA:0 -> PA:0
+  [Cache] Checking L1...
+    -> L1 Miss. Checking L2...
+    -> L2 Miss. Fetch RAM. Fill L2, L1.
+> [CPU] Access VA: 64
+  [MMU] Page Fault!
+[TRACER] VA:64 -> PA:64
+  [Cache] Checking L1...
+    -> L1 Miss. Checking L2...
+    -> L2 Miss. Fetch RAM. Fill L2, L1.
+> [CPU] Access VA: 128
+  [MMU] Page Fault!
+[TRACER] VA:128 -> PA:128
+  [Cache] Checking L1...
+    -> L1 Miss. Checking L2...
+    -> L2 Miss. Fetch RAM. Fill L2, L1.
+> [CPU] Access VA: 0
+  [MMU] TLB Hit.
+[TRACER] VA:0 -> PA:0
+  [Cache] Checking L1...
+    -> L1 Hit
+> [CPU] Access VA: 16
+  [MMU] TLB Hit.
+[TRACER] VA:16 -> PA:16
+  [Cache] Checking L1...
+    -> L1 Miss. Checking L2...
+    -> L2 Miss. Fetch RAM. Fill L2, L1.
+> --- Allocator Stats (Total: 1024) ---
+Used: 512 | Free: 512
+Internal Frag: 0B | External Frag: 0.00%
+--- VM Stats ---
+Page Faults: 3 | Page Hits: 2
+L1 Hits: 1 Misses: 4 Rate: 20.00%
+L2 Hits: 0 Misses: 4 Rate: 0.00%
+> 
