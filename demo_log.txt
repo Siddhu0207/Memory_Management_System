@@ -1,0 +1,13 @@
+Enter Init Memory Size: Commands: malloc <size>, free <id>, access <addr>, stats, set allocator <mode>, exit
+Allocated Block ID 1 at 0x0
+> Allocated Block ID 2 at 0x64
+> Freed Block ID 1.
+> [CPU] SegFault: Invalid Access at 0x32
+> --- Allocator Stats (Total: 1024) ---
+Used: 200 | Free: 824
+Internal Frag: 0B | External Frag: 12.14%
+--- VM Stats ---
+Page Faults: 0 | Page Hits: 0
+L1 Hits: 0 Misses: 0
+L2 Hits: 0 Misses: 0
+> 
